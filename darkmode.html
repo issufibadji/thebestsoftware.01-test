@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            background-color: white;
+            color: black;
+        }
+        
+        .dark-mode {
+            background-color: black;
+            color: white;
+        }
+    </style>
+    <title>Dark</title>
+</head>
+
+<body>
+    <h1>Bom dia</h1>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, inventore sapiente! Temporibus reprehenderit vitae culpa consequuntur nemo odio eum quisquam sunt facilis sed dolor rerum ipsam, provident non quis sit.
+    <a role="button" onclick="darkmode()">
+        <button class="nav-item">DarckMode</button>
+    </a>
+
+    <script>
+        function darkmode() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+
+        }
+    </script>
+</body>
+
+</html>

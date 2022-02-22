@@ -992,6 +992,15 @@ body.lb-disable-scrolling {
     transform: unset;
 }
 
+.shadow-sobre {
+    box-shadow: 10px 10px 0px #1eb03b;
+    border-radius: 5px;
+    border: 1px solid #1eb03b;
+    width: 40vw;
+    margin: 15px auto;
+    padding: 10px 0;
+}
+
 .shadow-contat {
     box-shadow: 10px 10px 0px #1eb03b;
     border-radius: 5px;
