@@ -6,6 +6,22 @@ https://templatemo.com/tm-503-newline
 
 */
 
+
+/* Darkmode*/
+
+body {
+    background-color: white;
+    color: black;
+}
+
+.dark-mode {
+    background-color: rgb(10, 10, 10);
+    color: white;
+}
+
+
+/* fim darkmode*/
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
